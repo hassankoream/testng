@@ -2,6 +2,8 @@
   "name": "firstapp",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -11,6 +13,7 @@
   },
   "private": true,
   "dependencies": {
+    "homepage": "http://hassankoream.github.io/testng/",
     "@angular/animations": "^17.3.0",
     "@angular/common": "^17.3.0",
     "@angular/compiler": "^17.3.0",
